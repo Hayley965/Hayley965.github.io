@@ -1,5 +1,5 @@
 name: Build and Deploy
-on: [push]
+on: [push]  #此处的括号从中文改成了英文
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
